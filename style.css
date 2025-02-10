@@ -129,6 +129,11 @@ body {
         border-top: 0px;
     }
 
+    body, .spacer {
+        background-color: lightblue;
+        
+    }
+
 }
 
 /* responsive design for Mobile screens */
@@ -153,4 +158,9 @@ body {
     #article2, #article4 {
         margin-left: 0px;
     }
+
+    body, .spacer {
+        background-color: yellowgreen;
+    }
+    
 }
