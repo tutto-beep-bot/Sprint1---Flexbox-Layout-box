@@ -109,3 +109,24 @@ body {
     height: 15px; 
     background-color: white;
 }
+
+/* responsive design for Tablet screens */
+@media screen and (max-width: 900px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles {
+        flex: 1 1 auto;
+    }
+
+    .sidebar {
+        flex: 1 1 auto;
+        order: 2;
+        border-left: 15px solid black;
+        border-top: 0px;
+    }
+
+}
