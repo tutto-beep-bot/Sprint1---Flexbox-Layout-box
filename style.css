@@ -130,3 +130,27 @@ body {
     }
 
 }
+
+/* responsive design for Mobile screens */
+@media screen and (max-width: 600px) {
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #article2, #article4 {
+        margin-left: 0px;
+    }
+}
